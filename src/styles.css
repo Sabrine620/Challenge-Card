@@ -1,0 +1,29 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.Card-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 35px;
+}
+
+.Card-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 30%;
+  height: 100px;
+  box-shadow: 1px 1px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.Card-info.selectCard {
+  background: red;
+  color: white;
+  font-size: 30px;
+  transform: scale(1.1) rotateY(360deg);
+}
